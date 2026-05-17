@@ -1,0 +1,42 @@
+---
+BasedOnStyle: LLVM
+IndentWidth: 2
+TabWidth: 2
+UseTab: Never
+ColumnLimit: 120
+
+# Braces: Allman for functions/classes/structs, K&R for control flow
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: false
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: false
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: false
+
+# Alignment
+PointerAlignment: Right
+AlignConsecutiveAssignments: false
+AlignOperands: true
+AlignTrailingComments: true
+
+# Short forms
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+# Indentation
+IndentCaseLabels: false
+ContinuationIndentWidth: 4
+ConstructorInitializerIndentWidth: 4
+
+# Includes
+SortIncludes: false
+
+# Misc
+SpaceAfterCStyleCast: false
+Standard: c++20
